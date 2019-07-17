@@ -21,7 +21,7 @@ services:
     image: "paulintezer/tpotcowrie:latest"
     read_only: true
     volumes:
-     - /data/cowrie/downloads:/home/cowrie/cowrie/dl
-     - /data/cowrie/keys:/home/cowrie/cowrie/etc
-     - /data/cowrie/log:/home/cowrie/cowrie/log
-     - /data/cowrie/log/tty:/home/cowrie/cowrie/log/tty
+     - /mnt/disk/cowrie/downloads:/home/cowrie/cowrie/dl
+     - /mnt/disk/cowrie/keys:/home/cowrie/cowrie/etc
+     - /mnt/disk/cowrie/log:/home/cowrie/cowrie/log
+     - /mnt/disk/cowrie/log/tty:/home/cowrie/cowrie/log/tty
